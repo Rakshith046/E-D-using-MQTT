@@ -10,13 +10,14 @@
 
 ## Code for Encryption and Decryption using Python:
    
-   ### In the file [project.py]:
+   ### In the file project.py:
    ``` python
    from random import randint, seed
 
 message= input("Enter the text:")
 variable = ""
 variable1 = ""
+
 #FOR ENCRYPTION:
 s=int(input("Set the SEED:"))
 seed(s)

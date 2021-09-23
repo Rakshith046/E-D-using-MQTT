@@ -50,3 +50,8 @@ print()
 print("After Decrypting:",variable1, end="")
 print()
 ```
+
+ ■ This code encrypts and decrypts the text or message entered by user:
+ 
+   ⇨ It ask's the user to enter the messege which must be encrypted.
+   ⇨ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator)

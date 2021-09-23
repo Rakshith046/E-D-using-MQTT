@@ -26,10 +26,8 @@ for i in message:
     print(key,end=" ")
     asc_val= ord(i)
     xor_= asc_val ^ key
-    binary= bin(xor_)[2:].zfill(8)
     encrypted =chr(xor_)
     variable += encrypted
-    #print(binary, end=" ")  
 print()
 print("After Encrypting:",variable, end="")
 print()
@@ -42,10 +40,8 @@ for i in variable:
     print(key,end=" ")
     asc = ord(i)
     xor = asc ^ key
-    binary_= bin(xor)[2:].zfill(8)
     decrypt= chr(xor)
     variable1 += decrypt
-    #print(binary_, end=" ")
 print()
 print("After Decrypting:",variable1, end="")
 print()
@@ -55,5 +51,8 @@ print()
  
    ⇨ It ask's the user to enter the messege which must be encrypted.
    <br>
-   
    ⇨ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption.
+   <br>
+   ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
+   <br>
+   ⇨ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.

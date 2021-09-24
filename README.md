@@ -72,6 +72,6 @@ print()
    <p align= "center">
    </p>
     
-    The above procedure is to show how Encryption and Decryption works.
+ The above procedure is to show how Encryption and Decryption works.
  
  ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.

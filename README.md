@@ -54,7 +54,8 @@ print()
    ⇨ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
    <br>
    
-   ![exe_1](https://user-images.githubusercontent.com/91250557/134679528-4c2a7e56-abe0-41d7-bc89-5167b7285814.jpg)[exe_1_screen](ref_pic/exe_1.jpg)
+  < [exe_1_screen](ref_pic/exe_1.jpg)  >
+   <img src="ref_pic/exe_1.jpg"  width="300px" height="600px">
    <p align= "center">
    <br>
    ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.

@@ -120,11 +120,12 @@ client.publish("encrypt",hexa_, 0)
 client.disconnect()
 
 ```
-◉ The above code acts as a publishing message in encrypted form.
+ ◉ The above code acts as a publishing message in encrypted form.
 
 ⇒NOTE: Here the encrypted message is in the form of Hexadecimals, beacause after exoring there are some non printable character which are not displayed so for subscriber while copying the message it not recognizes these character. Hence it is converted into hexadecimals.
 
-◉ The subscriber is connected to the Encryption.py code of publisher's as shown below:
+ ◉ The subscriber is connected to the Encryption.py code of publisher's as shown below:
+<br>
    Here im using 2 terminals, one is for publisher to send message and another is subscriber connected to publisher.
    <br>
     

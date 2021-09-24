@@ -122,4 +122,7 @@ client.disconnect()
 ```
 ◉ The above code acts as a publishing message in encrypted form.
 
+⇒NOTE: Here the encrypted message is in the form of Hexadecimals, beacause after exoring there are some non printable character which are not displayed so for subscriber while copying the message it not recognizes these character. Hence it is converted into hexadecimals.
+
+◉ The subscriber is connected to the Encryption.py of publisher's as shown below:
         

@@ -69,6 +69,10 @@ print()
    ◉ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.
    <br>
    
+   <img src= "ref_pic/exe_3.jpg">
+   <p align= "center">
+   </p>
+   
  The above procedure is to show how Encryption and Decryption works.
  
  ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.

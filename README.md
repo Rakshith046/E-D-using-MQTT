@@ -78,8 +78,48 @@ print()
  ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.
  <br>
  
- ### Encryption and Decryption Using MQTT server:
+### Encryption and Decryption Using MQTT server:
  
-     ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
-       
-       ◉ The publisher, who sends the message will be created a host name and topic in his code [Encryption.py]
+    ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
+      
+      ◉ Here the publisher is set-up with Paho-mqtt and created a hostname and topic. Where the subscriber is connected with these name and topic.
+      
+   ### In the file Encryption.py
+   ``` python
+   
+from random import randint, seed
+
+import paho.mqtt.client as paho
+import sys
+
+message= input("Enter the text:")
+variable = ""
+hexa_= ""
+
+S = int(input("Set the seed:"))
+seed(S)
+for i in message:
+    key= randint(1,10)
+    asc_val= ord(i)
+    xor_= asc_val ^ key
+    encrypted =chr(xor_)
+    variable += encrypted
+for i in variable:
+     hexa = hex(ord(i))
+     hexa_ += hexa[2:].zfill(2)
+print("After encrypting:",hexa_) 
+
+client = paho.Client()
+
+if client.connect("localhost", 1883, 60) != 0:
+    print("cloud not connect to MQTT broker")
+    sys.exit(-1)
+
+client.publish("encrypt",hexa_, 0)
+
+client.disconnect()
+
+```
+
+
+        

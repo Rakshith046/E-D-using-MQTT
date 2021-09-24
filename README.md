@@ -82,7 +82,7 @@ print()
  
    ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
       
-    ◉ Here the publisher is set-up with Paho-mqtt and created a hostname and topic. Where the subscriber is connected with these name and topic.
+   ◉ Here the publisher is set-up with Paho-mqtt and created a hostname and topic. Where the subscriber is connected with these name and topic.
       
    ### In the file Encryption.py
    ``` python
@@ -120,6 +120,6 @@ client.publish("encrypt",hexa_, 0)
 client.disconnect()
 
 ```
-
+◉ The above code acts as a publishing message in encrypted form.
 
         

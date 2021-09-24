@@ -12,6 +12,7 @@
    
    ### In the file project.py:
    ``` python
+   
 from random import randint, seed
 
 message= input("Enter the text:")
@@ -32,7 +33,7 @@ print("After Encrypting:",variable, end="")
 print()
 
 #FOR DECRYPTION:
-n= int(input("Enter the seed:"))
+n= int(input("To Decrypt enter the seed:"))
 seed(n)
 for i in variable:
     key= randint(1,10)

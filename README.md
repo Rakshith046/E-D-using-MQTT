@@ -57,10 +57,10 @@ print()
    <img src="ref_pic/exe_1.jpg">
    <p align= "center">
    <br>
- ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
-   <br>
+  ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
+  <br>
    
-   <img src= "ref_pic/exe_2.jpg">
-   <p align= "center">
-   <br>
+  <img src= "ref_pic/exe_2.jpg">
+  <p align= "center">
+  <br>
   ⇨ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.

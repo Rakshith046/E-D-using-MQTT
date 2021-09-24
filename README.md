@@ -53,7 +53,11 @@ print()
    <br>
    ⇨ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
    <br>
+   
    ![exe_1](https://user-images.githubusercontent.com/91250557/134679528-4c2a7e56-abe0-41d7-bc89-5167b7285814.jpg)
+   <p align= "center">
+   <br>
+   
    ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
    <br>
    ⇨ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.

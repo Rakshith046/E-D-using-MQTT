@@ -128,7 +128,7 @@ client.disconnect()
    Here im using 2 terminals, one is for publisher to send message and another is subscriber connected to publisher.
    <br>
     
-<img src= "ref_pic/exe_2.jpg">
+<img src= "ref_pic/sub_connected.jpg">
 <p align= "center">
 </p>
    

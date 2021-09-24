@@ -12,12 +12,11 @@
    
    ### In the file project.py:
    ``` python
-   from random import randint, seed
+from random import randint, seed
 
 message= input("Enter the text:")
 variable = ""
 variable1 = ""
-
 #FOR ENCRYPTION:
 s=int(input("Set the SEED:"))
 seed(s)
@@ -45,6 +44,7 @@ for i in variable:
 print()
 print("After Decrypting:",variable1, end="")
 print()
+
 ```
 
  ● This code encrypts and decrypts the text or message entered by user:

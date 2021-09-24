@@ -78,11 +78,11 @@ print()
  ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.
  <br>
  
-### Encryption and Decryption Using MQTT server:
+ ### Encryption and Decryption Using MQTT server:
  
-    ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
+   ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
       
-      ◉ Here the publisher is set-up with Paho-mqtt and created a hostname and topic. Where the subscriber is connected with these name and topic.
+    ◉ Here the publisher is set-up with Paho-mqtt and created a hostname and topic. Where the subscriber is connected with these name and topic.
       
    ### In the file Encryption.py
    ``` python

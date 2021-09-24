@@ -49,20 +49,20 @@ print()
 
  ■ This code encrypts and decrypts the text or message entered by user:
  
-    ◉ After executing this code, it ask's the user to enter the messege which must be encrypted.
+   ◉ After executing this code, it ask's the user to enter the messege which must be encrypted.
    <br>
-    ◉ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
+   ◉ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
    <br>
    
    <img src="ref_pic/exe_1.jpg">
    <p align= "center">
    </p>
   
-    ◉ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
+   ◉ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.
   <br>
    
   <img src= "ref_pic/exe_2.jpg">
   <p align= "center">
   </p>
   
-    ◉ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.
+   ◉ To decrypt the encrypted message, it asks for the SEED that has been set for encrypt the message. Now it proceeds in reverse process, it finds the ascii value of each character of encrypted message and the SEED provides the same keys and exored, finally gets the plain text entered by the user.

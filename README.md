@@ -132,6 +132,7 @@ client.disconnect()
 <p align= "center">
 </p>
    
+   Hurray!!! Sucessfully connected with publisher.
    
    
         

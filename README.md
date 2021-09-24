@@ -55,7 +55,7 @@ print()
    <br>
    
   < [exe_1_screen](ref_pic/exe_1.jpg)  >
-   <img src="ref_pic/exe_1.jpg"  width="300px" height="600px">
+   <img src="ref_pic/exe_1.jpg">
    <p align= "center">
    <br>
    ⇨ After entering the message and seed, the code generates the different keys for each characters in the message. The ascii value of each character is found and exored with each key that provides the encrypted form of message.

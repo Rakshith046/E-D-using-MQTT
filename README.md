@@ -50,7 +50,7 @@ print()
 
  ■ This code encrypts and decrypts the text or message entered by user:
  
-   ◉ After executing this code, it ask's the user to enter the messege which must be encrypted.
+   ◉ After executing this code using LINUX command, it ask's the user to enter the messege which must be encrypted.
    <br>
    ◉ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
    <br>
@@ -76,3 +76,10 @@ print()
  The above procedure is to show how Encryption and Decryption works.
  
  ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.
+ <br>
+ 
+ ### Encryption and Decryption Using MQTT server:
+ 
+     ■ To set-up MQTT, the publisher and subscriber plays important roles.The set-up as follows:
+       
+       ◉ The publisher, who sends the message will be created a host name and topic in his code [Encryption.py]

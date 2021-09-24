@@ -54,7 +54,6 @@ print()
    ⇨ It say's to set the [SEED](https://www.geeksforgeeks.org/random-seed-in-python/#:~:text=Seed%20function%20is%20used%20to,number%20generated%20by%20the%20generator). This seed is used to generate different keys for encryption. It is shown in below pic: 
    <br>
    
-  < [exe_1_screen](ref_pic/exe_1.jpg)  >
    <img src="ref_pic/exe_1.jpg">
    <p align= "center">
    <br>

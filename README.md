@@ -135,5 +135,8 @@ client.disconnect()
    
    Hurray!!! Sucessfully connected with publisher.
    
+  ◉ Now the publisher publishe's the message through executing his code by setting the seed. The subscriber connected to the publisher gets the encrypted form of the message.
+ 
+   
    
         

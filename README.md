@@ -136,7 +136,14 @@ client.disconnect()
    Hurray!!! Sucessfully connected with publisher.
    
   ◉ Now the publisher publishe's the message through executing his code by setting the seed. The subscriber connected to the publisher gets the encrypted form of the message.
- 
+     <br>
+    
+<img src= "ref_pic/sub_encrypt.jpg">
+<p align= "center">
+</p>
+
+   Now the subscriber received the encrypted form of the message. 
+     
    
    
         

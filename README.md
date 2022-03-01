@@ -176,7 +176,7 @@ print("After decrypting:",variable1)
   ◉ The above code acts as the Decrypting the message received by publisher.
      <br>
    
-  <img src= "ref_pic/Decrpting message.jpg">
+  <img src= "ref_pic/Decrypting message.jpg">
   <p align= "center">
   </p>
   

@@ -181,5 +181,6 @@ print("After decrypting:",variable1)
   </p>
   
  Now the message is decrypted and the subscriber knows the message sent  by the publiser.
+ 
  ⇒ In the same way you can communicate safer through this MQTT platform using seed.
         

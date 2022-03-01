@@ -73,9 +73,9 @@ print()
    <p align= "center">
    </p>
    
-     The above procedure is to show how Encryption and Decryption works.
+   The above procedure is to show how Encryption and Decryption works.
  
-     ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.
+   ⇒ NOTE: SEED plays important role here, it must be shared between sender and receiver. As long as SEED is safe the message is also secured.
  <br>
  
 ### Encryption and Decryption Using MQTT server:
@@ -122,7 +122,7 @@ client.disconnect()
 ```
  ◉ The above code acts as a publishing message in encrypted form.
 
-     ⇒NOTE: Here the encrypted message is in the form of Hexadecimals, beacause after exoring there are some non printable character which are not displayed so for subscriber while copying the message it not recognizes these character. Hence it is converted into hexadecimals.
+ ⇒NOTE: Here the encrypted message is in the form of Hexadecimals, beacause after exoring there are some non printable character which are not displayed so for subscriber while copying the message it not recognizes these character. Hence it is converted into hexadecimals.
 
  ◉ The subscriber is connected to the Encryption.py code of publisher's as shown below:
 <br>
@@ -133,18 +133,18 @@ client.disconnect()
 <p align= "center">
 </p>
    
-     Hurray!!! Sucessfully connected with publisher.
+  Hurray!!! Sucessfully connected with publisher.
    
-  ◉ Now the publisher publishe's the message through executing his code by setting the seed. The subscriber connected to the publisher gets the encrypted form of the message.
+ ◉ Now the publisher publishe's the message through executing his code by setting the seed. The subscriber connected to the publisher gets the encrypted form of the message.
      <br>
     
 <img src= "ref_pic/sub_encrypt.jpg">
 <p align= "center">
 </p>
 
-     Now the subscriber received the encrypted form of the message. 
+  Now the subscriber received the encrypted form of the message. 
    
-  ◉ To decrypt the message received by the publisher, the subscriber must have the Decryption code and a seed shared by publisher.
+ ◉ To decrypt the message received by the publisher, the subscriber must have the Decryption code and a seed shared by publisher.
    
    
    ### In the file Decryption.py
@@ -180,7 +180,7 @@ print("After decrypting:",variable1)
   <p align= "center">
   </p>
   
-     Now the message is decrypted and the subscriber knows the message sent  by the publiser.
+   Now the message is decrypted and the subscriber knows the message sent  by the publiser.
  
-     ⇒ In the same way you can communicate safer through this MQTT platform using seed.
+   ⇒ In the same way you can communicate safer through this MQTT platform using seed.
         
